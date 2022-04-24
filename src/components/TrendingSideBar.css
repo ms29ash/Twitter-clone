@@ -1,0 +1,6 @@
+.trendingSideBar {
+    background: var(--twitter-gray);
+    margin: 20px 0;
+    border-radius: 20px;
+    padding: 10px;
+}

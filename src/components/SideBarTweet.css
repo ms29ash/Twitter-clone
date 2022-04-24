@@ -1,0 +1,33 @@
+.SideBarTweet {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.SideBarTweet > img {
+    width: 30%;
+    height: 30%;
+    object-fit: contain;
+    border-radius: 10px;
+}
+.SideBarTweet__head {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.SideBarTweet__head > p {
+    margin-right: 8px;
+}
+.SideBarTweet__text {
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+.SideBarTweet__text > h3 {
+    font-size: 16px;
+}
+
+.SideBarTweet__details {
+    font-size: 14px;
+}

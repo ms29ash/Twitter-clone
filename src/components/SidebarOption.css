@@ -1,0 +1,34 @@
+.sidebarOption {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-weight: 500;
+    width: fit-content;
+    padding: 10px 15px;
+    margin: 5px 0;
+    margin-left: 10px;
+}
+
+.sidebarOption:hover {
+    background-color: #e8f5fe;
+    color: var(--twitter-color);
+    border-radius: 30px;
+    transition: color 100ms ease-out;
+}
+
+.sidebarOption__active {
+    color: var(--twitter-color);
+    font-weight: 700 !important;
+}
+
+.sidebarOption > h2 {
+    font-size: 20px;
+    font-weight: inherit;
+    margin-left: 10px;
+}
+
+@media screen and (max-width: 1300px) {
+    .sidebarOption > h2 {
+        display: none;
+    }
+}

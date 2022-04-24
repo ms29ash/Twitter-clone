@@ -1,0 +1,98 @@
+.post {
+    padding: 10px;
+    margin: 2px;
+    overflow: hidden;
+    border-bottom: var(--border);
+}
+.post:hover {
+    background-color: #f4f4f4;
+}
+
+.post__main {
+    display: flex;
+}
+
+.postTop {
+    display: flex;
+}
+
+.postContent {
+    width: 90%;
+    padding: 10px;
+}
+.postContent__img {
+    width: 90%;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.three__dot {
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 50%;
+}
+.three__dot:hover {
+    fill: var(--twitter-color) !important;
+    background-color: var(--icon-background);
+}
+
+.post__author {
+    width: 50px;
+    height: 50px;
+    border-radius: 80%;
+    margin-right: 10px;
+}
+.postContent__textHead {
+    cursor: pointer;
+}
+.postContent__textHead > strong:hover {
+    text-decoration: underline;
+}
+
+.postOPtions {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.post__option {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.post__option > p {
+    margin-left: 8px;
+
+    color: rgb(83, 100, 113);
+}
+.post__option > svg {
+    width: 20px;
+    fill: rgb(83, 100, 113);
+    height: 20px;
+    padding: 5px;
+    border-radius: 50%;
+}
+.comment:hover > p {
+    color: #33aaf2;
+}
+.comment:hover > svg {
+    fill: #33aaf2;
+    background-color: #e1eef7;
+}
+.heart:hover > p {
+    color: #e12c64;
+}
+.heart:hover > svg {
+    fill: #e12c64;
+    background-color: #f5e2e8;
+}
+.retweet:hover > p {
+    color: #27c36d;
+}
+.retweet:hover > svg {
+    fill: #27c36d;
+    background-color: #e0f1e8;
+}
+.share:hover > svg {
+    background-color: #e1eef7;
+    fill: #1ea1f2;
+}
